@@ -1,7 +1,8 @@
-def square_array(array)
-  array.each do |number|
-    puts '#{number}**'
+def square_array()
+  square = []
+  numbers.each do |number|
+    puts number**2
     return square_array
-end
-
+  end
+  
 square_array(1,2,3)
