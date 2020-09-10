@@ -3,4 +3,4 @@ def square_array[numbers]
     puts '#{number}'**2
   end
   
-square_array([1,2,3])
+square_array(numbers)
